@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(Background.png);
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.bodywrapper{
+   
+    margin: 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between
+}
+#hamburger{
+    margin: 0px;
+    padding: 30px;
+}
+.Content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+span{
+    font-size: x-large;
+    color: aqua;
+    
+}
+p{
+    padding: 20px;
+    
+}
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: aqua;
+    
+}
+.bottom{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+ion-icon{
+    color: aqua;
+    padding: 20px;  
+    font-size: 30px; 
+}
+#menu{
+    color: white;
+}
+
